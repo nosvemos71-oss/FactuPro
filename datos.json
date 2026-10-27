@@ -1,0 +1,65 @@
+{
+  "productos": {
+    "001": {
+      "nombre": "Coca-cola",
+      "precio": 4000,
+      "stock": 8
+    }
+  },
+  "ventas": [
+    {
+      "id": 1,
+      "fecha": "2026-10-27 13:23:50",
+      "bloque": "2026-10-27 13:23:13",
+      "items": [
+        {
+          "codigo": "001",
+          "nombre": "Coca-cola",
+          "cantidad": 2,
+          "precio": 4000
+        }
+      ],
+      "total": 8000,
+      "recibido": 10000,
+      "vueltas": 2000,
+      "usuario": "admin"
+    },
+    {
+      "id": 2,
+      "fecha": "2026-10-27 13:25:01",
+      "bloque": "2026-10-27 13:25:05",
+      "items": [
+        {
+          "codigo": "001",
+          "nombre": "Coca-cola",
+          "cantidad": 10,
+          "precio": 4000
+        }
+      ],
+      "total": 40000,
+      "recibido": 100000,
+      "vueltas": 60000,
+      "usuario": "admin"
+    }
+  ],
+  "bloques": {
+    "2026-10-27 13:23:13": {
+      "apertura": "2026-10-27 13:23:13",
+      "cierre": "2026-10-27 13:24:50",
+      "efectivo_inicial": 100000,
+      "cerrado": true,
+      "efectivo_contado": 108000,
+      "esperado": 108000,
+      "diferencia": 0
+    },
+    "2026-10-27 13:25:05": {
+      "apertura": "2026-10-27 13:25:05",
+      "cierre": "2026-10-27 13:26:06",
+      "efectivo_inicial": 108000,
+      "cerrado": true,
+      "efectivo_contado": 148000,
+      "esperado": 148000,
+      "diferencia": 0
+    }
+  }
+}
